@@ -17,7 +17,7 @@ app.use( '/api/v1/tasks' , router )
 
 const start = async () =>{
 try {
-   // await connectDb(process.env.DATABASE_CONNECT);
+   //await connectDb(process.env.DATABASE_CONNECT);
     app.listen (port, (req, res) =>{
         console.log ('You are listening to port: ' ,port);
         })
